@@ -13,6 +13,6 @@ This is the landing page.
   {{< card link="research" title="RESEARCH" icon="book-open" >}}
 </div>
 
-### Hi
+## Hi
 I am a 3rd year undergrad at the Dept. of Electronics and Communication Engineering, Indian Institute of Technology Roorkee (IITR).
 
