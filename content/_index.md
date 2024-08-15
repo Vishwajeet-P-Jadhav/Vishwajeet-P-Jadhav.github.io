@@ -3,9 +3,6 @@ title: Vishwajeet Jadhav
 toc: false
 ---
 
-# Vishwajeet Jadhav
-### Undergraduate Student
-
 This is the landing page.
 
 ## Explore
