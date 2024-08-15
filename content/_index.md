@@ -13,6 +13,6 @@ This is the landing page.
   {{< card link="research" title="RESEARCH" icon="book-open" >}}
 </div>
 
-## Documentation
+###Hi
+I am a 3rd year undergrad at the Dept. of Electronics and Communication Engineering, Indian Institute of Technology Roorkee (IITR).
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
