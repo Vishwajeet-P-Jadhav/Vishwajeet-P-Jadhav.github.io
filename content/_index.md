@@ -13,6 +13,6 @@ This is the landing page.
   {{< card link="research" title="RESEARCH" icon="book-open" >}}
 </div>
 
-## Hi
-I am a 3rd year undergrad at the Dept. of Electronics and Communication Engineering, Indian Institute of Technology Roorkee (IITR).
-
+### Hi.
+I am a 3rd year undergrad at the Dept. of Electronics and Communication Engineering, Indian Institute of Technology Roorkee (IITR). 
+I am deeply interested in the research area at the intersection of mixed-signal analog circuit design, signal processing and bioelectronics. 
