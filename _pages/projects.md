@@ -1,12 +1,12 @@
 ---
 layout: page
-title: experience
+title: EXPERIENCE
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Feel free to click and open individual entries.
 nav: true
 nav_order: 3
-display_categories: [Research Internship, Research Projects, Semester Projects, work, fun]
-horizontal: false
+display_categories: [Research Internship, Research Projects, Semester Projects]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
