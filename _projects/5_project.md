@@ -9,13 +9,15 @@ category: Research Internship
 
 ## Overview
 
-I spent my summer of 2025 at the University of Southern California, Los Angeles as a part of the [IUSST-Viterbi program](https://iusstf.org/iusstf-viterbi-program) where I undertook research activities at the [ACME lab](https://acme.usc.edu/) led by Prof. Constantine Sideris. My projects were focussing on biomedical circuits.
+I spent my summer of 2025 at the University of Southern California, Los Angeles as a part of the [IUSST-Viterbi program](https://iusstf.org/iusstf-viterbi-program) where I undertook research activities at the [ACME lab](https://acme.usc.edu/) led by Prof. Constantine Sideris. My projects were focusing on biomedical circuits.
 
 ## Project Details
 
 **Duration:** May 2025 – July 2025  <br>
 **Role:** Summer Research Intern    <br>
-**Advisor:** [Prof. Constantine Sideris](https://minghsiehece.usc.edu/directory/faculty/profile/?lname=Sideris&fname=Constantine), Associate Professor, Electrical and Computer Engineering, USC <br>
+**Advisor:** [Prof. Constantine Sideris](https://minghsiehece.usc.edu/directory/faculty/profile/?lname=Sideris&fname=Constantine), <br>
+Associate Professor, <br>
+Electrical and Computer Engineering, USC <br>
 
 ## Research Objectives
 
@@ -24,18 +26,20 @@ I spent my summer of 2025 at the University of Southern California, Los Angeles 
 3. Contributing to he design of a new PLL-based IC for bio-assay in TSMC65nm technology node
 
 ## Technologies used
-    - Cadence virtuoso
-    - MATLAB
-    - KiCAD
+- Cadence virtuoso
+- MATLAB
+- KiCAD
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Viterbi_presentation.jpg"    title="Viterbi_presentation" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/PCB.jpg" title="PCB" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     The final presentation day, with Thanh Dat Nguyen, Ray Sun and Dean Prof Cauligi Raghavendra in the left image and the PCB I designed in the right.
 </div>
+
+## Learning Outcomes

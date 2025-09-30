@@ -23,8 +23,8 @@ This project constituted the design of a glucose potentiostat at the schematic l
 1. Implement the amplifier-less potentiostat topology in 180nm 
 
 ## Technologies used
-    - Cadence virtuoso
-    - Ltspice
+- Cadence virtuoso
+- Ltspice
 
 ## Learning Outcomes
 

@@ -24,8 +24,8 @@ This project was a part of my honours course on mixed-signal circuit design wher
 2. Implement a Tow-Thomas Biquad filter using the previously designed OTA
 
 ## Technologies used
-    - Cadence virtuoso
-    - MATLAB
+- Cadence virtuoso
+- MATLAB
 
 ## Learning Outcomes
 
