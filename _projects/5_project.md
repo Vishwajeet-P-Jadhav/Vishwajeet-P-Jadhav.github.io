@@ -29,14 +29,13 @@ I spent my summer of 2025 at the University of Southern California, Los Angeles 
     - KiCAD
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Viterbi_presentation.jpg"    title="Viterbi_presentation" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/PCB.jpg" title="PCB" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Viterbi_presentation.jpg"    title="Viterbi_presentation" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/PCB.jpg" title="PCB" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
-The final presentation day, with Thanh Dat Nguyen, Ray Sun and Dean Prof Cauligi Raghavendra in the left image and the PCB I designed in the right.
+    The final presentation day, with Thanh Dat Nguyen, Ray Sun and Dean Prof Cauligi Raghavendra in the left image and the PCB I designed in the right.
 </div>
-
