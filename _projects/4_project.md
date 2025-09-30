@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: FRUC detection using periodic properties of edge intensities
 description: another without an image
 img:
 importance: 3
