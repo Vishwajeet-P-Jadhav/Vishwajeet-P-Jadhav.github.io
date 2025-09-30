@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-my-experience",
-          title: "My Experience",
+  },{id: "nav-experience",
+          title: "experience",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
@@ -73,9 +73,9 @@ ninja.data = [{
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-iusstf-viterbi-39-25",
+          title: 'IUSSTF-Viterbi&amp;#39;25',
+          description: "My summer research intern at USC-Viterbi",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
             },},{id: "projects-project-6",
