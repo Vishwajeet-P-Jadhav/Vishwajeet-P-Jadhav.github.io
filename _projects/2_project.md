@@ -9,6 +9,33 @@ giscus_comments: true
 ---
 
 
+## Overview
+
+This project constituted the design of a glucose potentiostat at the schematic level. Under the guidance of my advisor, I implemented [this paper](https://ieeexplore.ieee.org/abstract/document/10454401) from ISSCC 2024 in SCL-180nm pdk in Cadence virtuoso
+
+## Project Details
+
+**Duration:** April 2024 – Jan 2025  <br>
+**Role:** Undergraduate Researcher  <br>
+**Advisor:** [Prof. Saravana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html), Assistant Professor, Electronics and Communication Engineering, IIT-Roorkee <br>
+
+## Research Objectives
+
+1. 
+
+## Technologies used
+    - Cadence virtuoso
+    - Ltspice
+
+## Learning Outcomes
+
+Prior to this project, my exposure to analog circuits was purely coursework based - so in a way this project was my first introduction to circuits research as well as biomedical circuits.
+
+Over the course of designing this system, I got to design blocks such as regenerative feedback comparators, current-steering DACs and certain digital circuitry. I also played around with noise shaping aspects towards the end of this project, which served as a somewhat introduction to mixed-signal circuit design for me.
+
+I also had the opportunity to present my work on this project at the Student research forum at ISICAS-2024. That was a great experience for me where I got to meet many senior researchers and present my work before them.  
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
