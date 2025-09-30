@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Design of a 4th order Continuous Time Butterworth Filter
-description: a project that redirects to another website
+description: Mixed signal circuit design course project
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 1

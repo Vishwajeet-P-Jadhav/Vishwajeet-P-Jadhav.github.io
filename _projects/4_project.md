@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FRUC detection using periodic properties of edge intensities
-description: another without an image
+description: Digital Image Processing course project
 img:
 importance: 3
 category: Semester Projects
