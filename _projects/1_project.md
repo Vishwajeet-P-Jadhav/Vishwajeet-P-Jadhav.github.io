@@ -33,7 +33,7 @@ This project started out as an investigation of ELD-compensation techniques for 
 
 This has been a really great learning experience so far, and will continue to be so in the future. I have learnt a lot about mixed-signal design starting from the theory in Prof. Shanthi Pavan's book on understanding data converters and through MATLAB simulations followed by circuit level implementations in Cadence virtuoso. 
 
-Practically impementing at the circuit level has taught me a lot about challenges that start the moment we move from pen and paper to simulation level.
+Practically impementing at the circuit level has taught me a lot about challenges that start the moment we move from pen and paper to simulation level. This was also my first time working with fully-differential circuits, so that was again a new learning experience.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
