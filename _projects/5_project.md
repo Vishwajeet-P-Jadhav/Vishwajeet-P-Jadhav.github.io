@@ -9,7 +9,7 @@ category: Research Internship
 
 ## Overview
 
-I spent my summer of 2025 at the University of Southern California, Los Angeles as a part of the [IUSST-Viterbi program](https://iusstf.org/iusstf-viterbi-program) where I undertook research activities at the [ACME lab](https://acme.usc.edu/) led by Prof. Constantine Sideris. My projects were focusing on biomedical circuits.
+I spent my summer of 2025 at the University of Southern California, Los Angeles as a part of the [IUSST-Viterbi program](https://iusstf.org/iusstf-viterbi-program) where I undertook research activities at the [ACME lab](https://acme.usc.edu/) led by Prof. Constantine Sideris. My projects focused on biomedical circuits - one was related to testing and characterizing a fabricated IC and the other was IC design for bio-assay.
 
 ## Project Details
 
@@ -22,8 +22,8 @@ Electrical and Computer Engineering, USC <br>
 ## Research Objectives
 
 1. Designing PCBs for testing a custom neurostimulator chip
-2. Assisting with the IC measurements and characterization
-3. Contributing to he design of a new PLL-based IC for bio-assay in TSMC65nm technology node
+2. Working on the IC measurements and characterization
+3. Contributing to the design of a new PLL-based IC for bio-assay in TSMC65nm technology node
 
 ## Technologies used
 - Cadence virtuoso
@@ -43,3 +43,6 @@ Electrical and Computer Engineering, USC <br>
 </div>
 
 ## Learning Outcomes
+This was my first time characterizing an actual fabricated chip. I got to design the testing PCB for the neurostimulator chip, solder the manufactured PCB and help out with testing the chip. I programmed the microcontroller that was used for configuring the DSP units of the chip and recorded the stimulated waveforms in the oscilloscopes.
+
+In the IC design project, it was again my first time designing at GHz frequencies. The circuitry there was primarily a PLL made up of an LC-tank VCO which would be interfaced with magnetic nanoparticles for frequency shift-based bio-assay. 
