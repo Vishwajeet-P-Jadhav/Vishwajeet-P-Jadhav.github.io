@@ -26,8 +26,8 @@ This project started out as an investigation of ELD-compensation techniques for 
 2. Compensating for an ELD > 1 clock cycle
 
 ## Technologies used
-- Cadence virtuoso
-- MATLAB
+    - Cadence virtuoso
+    - MATLAB
 
 ## Learning Outcomes
 
