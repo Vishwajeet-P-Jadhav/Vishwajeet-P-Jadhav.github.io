@@ -46,7 +46,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-design-of-a-cmos-potentiostat-for-glucose-biosensing",
           title: 'Design of a CMOS Potentiostat for Glucose Biosensing',
-          description: "",
+          description: "Undergraduate Research at IIT-R",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-design-of-a-4th-order-continuous-time-butterworth-filter",
