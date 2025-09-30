@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Design of a CMOS Potentiostat for Glucose Biosensing
+description: Designed
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: work
 giscus_comments: true
 ---
