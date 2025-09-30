@@ -23,7 +23,7 @@ announcements:
 
 ---
 
-Hi. I'm a final year undergraduate student at [Indian Institute of Technology, Roorkee (IIT-R)](https://www.iitr.ac.in/) majoring in electronics and communication engineering. 
+Hi. I'm a final year undergrad student at [Indian Institute of Technology, Roorkee (IIT-R)](https://www.iitr.ac.in/) majoring in electronics and communication engineering. 
 
 My research interests are analog/mixed signal IC design for high-speed communication as well as biomedical circuits. I am an [IUSSTF-Viterbi'25](https://iusstf.org/iusstf-viterbi-program) scholar, and under this program I had interned at [ACME lab](https://acme.usc.edu/) at University of Southern California (USC). Under the guidance of Prof. Constantine Sideris, I had worked on designing PCB's and characterizing a neurostimulator IC as well as contributed to a design of a PLL based IC for bio-assay in TSMC-65nm technology node.
 
