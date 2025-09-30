@@ -4,7 +4,7 @@ title: FRUC detection using periodic properties of edge intensities
 description: another without an image
 img:
 importance: 3
-category: fun
+category: Semester Project
 ---
 
 Every project has a beautiful feature showcase page.

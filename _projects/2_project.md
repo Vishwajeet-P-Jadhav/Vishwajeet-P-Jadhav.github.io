@@ -4,7 +4,7 @@ title: Design of a CMOS Potentiostat for Glucose Biosensing
 description: Designed
 img: assets/img/3.jpg
 importance: 1
-category: work
+category: Research Project
 giscus_comments: true
 ---
 

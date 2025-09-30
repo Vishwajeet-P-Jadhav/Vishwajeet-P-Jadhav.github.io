@@ -4,7 +4,7 @@ title: Design of Ultra High Bandwidth Continuous Time Delta Sigma ADC
 description: Designing in GF 22nm FDSOI for a target bandwidth of 200MHz and 68dB SNDR
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Research Project
 related_publications: false
 ---
 
