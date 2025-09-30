@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: IUSSTF-Viterbi'25
+description: My summer research intern at USC-Viterbi
 img: assets/img/1.jpg
 importance: 1
 category: Research Internship

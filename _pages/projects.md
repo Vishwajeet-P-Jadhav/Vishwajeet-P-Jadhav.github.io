@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Experience
+title: experience
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
