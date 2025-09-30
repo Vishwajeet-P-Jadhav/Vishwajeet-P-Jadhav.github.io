@@ -2,19 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+    <p>BTech Student</p>
+    <p>Electronics and Communication Engineering</p>
+    <p>IIT Roorkee, India</p>
+    
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi. I'm a final year undergraduate student at [Indian Institute of Technology, Roorkee (IIT-R)](https://www.iitr.ac.in/) majoring in electronics and communication engineering. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are analog/mixed signal IC design for high-speed communication as well as biomedical circuits. I am an [IUSSTF-Viterbi'25](https://iusstf.org/iusstf-viterbi-program) scholar, and under this program I had interned at [ACME lab](https://acme.usc.edu/) at University of Southern California (USC). Under the guidance of Prof. Constantine Sideris, I had worked on designing PCB's and characterizing a neurostimulator IC as well as contributed to a design of a PLL based IC for bio-assay in TSMC-65nm technology node.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My final year thesis here at IIT-Roorkee is on the design of an ultra high-bandwidth Continuous Time Delta Sigma ADC. This project had started of as exploring various ELD compensation schemes for ELD>1 clock cycle and now has evolved into a full fledged chip design project carried out in GF-22nm FDSOI node. This project is being done at the ams lab at IIT Roorkee under the guidance of Prof. Saravana Kumar M.
