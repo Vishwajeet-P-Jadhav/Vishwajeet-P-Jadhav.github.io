@@ -1,11 +1,11 @@
 ---
 layout: page
-title: My Experience so far
+title: My Experience
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Research Internship, Research Projects, Semester Projects, work, fun]
 horizontal: false
 ---
 
