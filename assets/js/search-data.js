@@ -41,22 +41,22 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-design-of-ultra-high-bandwidth-continuous-time-delta-sigma-adc",
           title: 'Design of Ultra High Bandwidth Continuous Time Delta Sigma ADC',
-          description: "Designing in GF 22nm FDSOI for a target bandwidth of 200MHz and 68dB SNDR",
+          description: "Final year undergraduate thesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-design-of-a-cmos-potentiostat-for-glucose-biosensing",
           title: 'Design of a CMOS Potentiostat for Glucose Biosensing',
-          description: "Designed",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-design-of-a-4th-order-continuous-time-butterworth-filter",
           title: 'Design of a 4th order Continuous Time Butterworth Filter',
-          description: "a project that redirects to another website",
+          description: "Mixed signal circuit design course project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-fruc-detection-using-periodic-properties-of-edge-intensities",
           title: 'FRUC detection using periodic properties of edge intensities',
-          description: "another without an image",
+          description: "Digital Image Processing course project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
             },},{id: "projects-iusstf-viterbi-39-25",
