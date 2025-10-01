@@ -32,16 +32,18 @@ This project was a part of my honours course on mixed-signal circuit design wher
 
 ## Learning Outcomes
 
-This was my first time ever designing an OTA, which I had done using the g/Id method 
+This was my first time ever designing an OTA, which I had done using the gm/Id method. I learnt a little bit of ocean scripting in Cadence for exporting transistor data for analysis and processed the gm/Id tables in MATLAB.
+
+The OTA was designed for the assigned specifications and then used in the schematic for Tow-Thomas biquad filter. Two 2nd order filters were cascaded to get the final filter schematic. The exact filter coefficients were obtained from MATLAB.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/isicas_presentation.jpg" title="isicas img" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/OTA_ckt.png" title="ota img" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/potentiostat_ckt.jpg" title="ckt img" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Tow_thomas.png" title="filter img" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    My student research forum presentation at ISICAS-2024 on the left and the schematic of the designed system on the right
+    The schematic of my OTA on the left and 2nd order Tow-Thomas Biquad filter on the right. The entire filter was implemented as a cascade of two such stages.
 </div>
