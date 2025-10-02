@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design of a 4th order Continuous Time Butterworth Filter
+title: Continuous Time Filter Design
 description: Mixed signal circuit design course project
 img: assets/img/7.jpg
 importance: 1
@@ -32,15 +32,16 @@ This project was a part of my honours course on mixed-signal circuit design wher
 
 ## Learning Outcomes
 
-This was my first time ever designing an OTA, which I had done using the gm/Id method. I learnt a little bit of ocean scripting in Cadence for exporting transistor data for analysis and processed the gm/Id tables in MATLAB.
+This was my first time ever designing an OTA, which I had done using the gm/Id method. I learnt a little bit of ocean scripting in Cadence for exporting transistor data for analysis and processed the gm/Id tables in MATLAB. Optimizing for the best set of parameters had me going back and forth between the gm/Id plots and the small-signal expressions. 
 
 The OTA was designed for the assigned specifications and then used in the schematic for Tow-Thomas biquad filter. Two 2nd order filters were cascaded to get the final filter schematic. The exact filter coefficients were obtained from MATLAB.
 
+
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/OTA_ckt.png" title="ota img" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Tow_thomas.png" title="filter img" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

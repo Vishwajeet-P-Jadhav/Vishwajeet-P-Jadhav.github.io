@@ -36,7 +36,7 @@ Prior to this project, my exposure to analog circuits was purely coursework base
 
 Over the course of designing this system, I got to design blocks such as regenerative feedback comparators, current-steering DACs and certain digital circuitry. I also played around with noise shaping aspects towards the end of this project, which served as a somewhat introduction to mixed-signal circuit design for me.
 
-I also had the opportunity to present my work on this project at the Student research forum at ISICAS-2024. That was a great experience for me where I got to meet many senior researchers and present my work before them.  It was also the first ever conference that I had visited, so it was a completely different experience for me.
+I also had the opportunity to present my work on this project at the Student research forum at ISICAS-2024. That was a great experience for me where I got to meet many senior researchers and present my work before them.  It was also the first ever conference that I had visited, so it was a completely new experience for me.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
