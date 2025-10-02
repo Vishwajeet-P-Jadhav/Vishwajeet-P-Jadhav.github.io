@@ -8,6 +8,11 @@
         "network": "LinkedIn",
         "username": "Vishwajeet Jadhav",
         "url": "https://www.linkedin.com/in/vishwajeet-jadhav-844947255"
+      },
+      {
+        "network": "Website",
+        "username": "My Website",
+        "url": "https://vishwajeet-p-jadhav.github.io/"
       }
     ]
   },
@@ -33,11 +38,11 @@
       "url": "https://viterbi.usc.edu/",
       "startDate": "May 2025",
       "endDate": "July 2025",
-      "summary": "Research intern at the ACME Lab at USC.",
+      "summary": "Research intern at the [ACME Lab](https://acme.usc.edu/) at USC.",
       "highlights": [
         "Contributed to the design of a **PLL based IC** for resonant-shift-based biosensing using magnetic nanoparticles.",
         "Designed **PCB** for testing and characterization of neurostimulator IC.",
-        "Advisor: [Prof. Constantine Sideris](https://scholar.google.com/citations?user=-7RMX3oAAAAJ&hl=en), Associate Professor, ACME Lab, USC Viterbi"
+        "Advisor: **[Prof. Constantine Sideris](https://minghsiehece.usc.edu/directory/faculty/profile/?lname=Sideris&fname=Constantine)**, Associate Professor, ACME Lab, USC Viterbi"
       ]
     }
   ],
@@ -51,7 +56,7 @@
         "Proposed a **digital logic based ELD compensation scheme** for ELD>1 clock cycles for CT-DSM and verified logic through simulation both in MATLAB and ideal blocks in Cadence.",
         "Targeting a **200MHz bandwidth** and **68dB SNDR** at a sampling rate of 9.6GHz.",
         "Currently designing the modulator in **GF 22nm FDSOI** technology node.",
-        "Advisor: [Prof. Sarvana Kumar M.](https://ece.iitr.ac.in/saravana-kumar-m/), Assistant Professor, ECE Department, IIT Roorkee"
+        "Advisor: **[Prof. Sarvana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html)**, Assistant Professor, ECE Department, IIT Roorkee"
       ]
     },
     {
@@ -60,17 +65,28 @@
       "startDate": "April 2024",
       "endDate": "Jan 2025",
       "highlights": [
-        "Implemented a **potentiostat** for glucose biosensing in **180nm CMOS technology node** in Cadence Virtuoso at schematic level.",
-        "Presented the research at the student research forum at **IEEE ISICAS 2024**.",
-        "Advisor: [Prof. Sarvana Kumar M.](https://ece.iitr.ac.in/saravana-kumar-m/), Assistant Professor, ECE Department, IIT Roorkee"
+        "Implemented a potentiostat for glucose biosensing in **180nm CMOS technology node** in Cadence Virtuoso at schematic level.",
+        "Presented the research at the student research forum at **[IEEE ISICAS 2024](https://isicas2024.org/cass_workshop_agenda.php)**.",
+        "Advisor: **[Prof. Sarvana Kumar M.](https://ece.iitr.ac.in/saravana-kumar-m/)** , Assistant Professor, ECE Department, IIT Roorkee"
       ]
     },
     {
-      "title": "Design of OTA in 180nm node in Cadence Virtuoso",
+      "title": "Resistance Modeling in Nanosheet FET's",
+      "organization": "Indian Institute of Technology, Roorkee",
+      "startDate": "Sept 2023",
+      "endDate": "May 2024",
+      "highlights": [
+        "Worked at the **[Dirac Lab](https://www.iitr.ac.in/diraclab/)** at IIT-Roorkee in my 2nd year of undergrad.",
+        "Modeled variation of extrinsic resistances in nanosheet FETs through device level simulations in **Sentaurus TCAD**.",
+        "Advisor: **[Prof. Avirup Dasgupta](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100922.html)**, Associate Professor, ECE Department, IIT Roorkee"
+      ]
+    },
+    {
+      "title": "Design of a 4th order CT Butterworth Filter in 180nm node in Cadence Virtuoso",
       "organization": "ECL-538 : Mixed Signal Circuit Design course",
       "highlights": [
-        "Designed a two-stage **Miller compensated OTA** in SCL 180nm pdk in Cadence Virtuoso using **gm/Id technique**.",
-        "Achieved a DC gain of **81dB**, UGB of **130 MHz**, and a phase margin of **47 degrees**."
+        "Implemented the filter as a cascade of two single-ended **Tow Thomas Biquad filters**.",
+        "Each stage utilised a previously designed two-stage Miller compensated OTA, designed using **gm/Id technique**. Entire design was carried out in SCL 180nm pdk."
       ]
     },
     {
@@ -78,7 +94,7 @@
       "organization": "ECN-316 : Digital Image Processing course",
       "highlights": [
         "Implemented algorithms for detection of video **Frame-Rate Up-Conversion (FRUC)** using periodic variation of frame edge intensity.",
-        "Edge intensity was measured using operators like **Kirsch**, **Prewitt**, and **Sobel** as well as **wavelet transform**, followed by **Kaufman Adaptive Moving Average** operation."
+        "Drop in frame edge intensity was used as a measure to detect upconversion."
       ]
     }
   ],
