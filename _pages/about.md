@@ -31,4 +31,6 @@ My final year thesis here at IIT-Roorkee is on the design of an ultra high-bandw
 
 Feel free to know more about me in the links below :
 
-[Experience](/projects/) / [C.V.](/cv/) 
+<div class="text-center">
+  [Experience](/experience/) / [C.V.](/cv/)
+</div>
