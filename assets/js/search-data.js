@@ -54,8 +54,8 @@ ninja.data = [{
           description: "Mixed signal circuit design course project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-fruc-detection-using-periodic-properties-of-edge-intensities",
-          title: 'FRUC detection using periodic properties of edge intensities',
+            },},{id: "projects-frame-rate-upconversion-detection",
+          title: 'Frame Rate Upconversion Detection',
           description: "Digital Image Processing course project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
