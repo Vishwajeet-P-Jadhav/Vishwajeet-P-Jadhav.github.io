@@ -18,14 +18,16 @@ social: false # includes social icons at the bottom of the page
 
 ---
 
-Hi. I'm a final year undergrad student at [Indian Institute of Technology, Roorkee (IIT-R)](https://www.iitr.ac.in/) majoring in electronics and communication engineering. 
+Hi. I'm a final year undergrad honours student in Electronics and Communication Engineering at [Indian Institute of Technology, Roorkee (IIT-R)](https://www.iitr.ac.in/). 
 
-My research interests are analog/mixed signal IC design for high-speed communication as well as biomedical circuits. I am an [IUSSTF-Viterbi'25](https://iusstf.org/iusstf-viterbi-program) scholar, and under this program I had interned at [ACME lab](https://acme.usc.edu/) at University of Southern California (USC). Under the guidance of Prof. Constantine Sideris, I had worked on designing PCB's and characterizing a neurostimulator IC as well as contributed to a design of a PLL based IC for bio-assay in TSMC-65nm technology node.
+My research interests lie in analog/mixed signal IC design for high-speed communication systems and biomedical circuits. I am an [IUSSTF-Viterbi'25](https://iusstf.org/iusstf-viterbi-program) scholar, and I spent my research intenrship at [ACME lab](https://acme.usc.edu/) at University of Southern California (USC), working on biomedical circuits.
 
-My final year thesis here at IIT-Roorkee is on the design of an ultra high-bandwidth Continuous Time Delta Sigma ADC. This project had started of as exploring various ELD compensation schemes for ELD>1 clock cycle and now has evolved into a full fledged chip design project carried out in GF-22nm FDSOI node. This project is being done at the ams lab at IIT Roorkee under the guidance of Prof. Saravana Kumar M.
+My research work at IIT-Roorkee spans multiple projects in the areas of analog/mixed signal circuit design, including my final year thesis on an Ultra High Bandwidth Continuous Time $\Delta\Sigma$ ADC design. I've also served as a TA once for an undergrad course on Signals and Systems.
+
+Looking forward, I hope to work at the intersection of circuits and healthcare systems and play my part in advancing biomedical research.
 
 Feel free to know more about me in the links below :
 
 <div class="text-center">
-  <a href="/projects/">Experience</a> / <a href="//assets/pdf/Vishwajeet_Jadhav_CV.pdf/">C.V.</a> / <a href="https://www.linkedin.com/in/vishwajeet-jadhav-844947255/">LinkedIn</a>
+  <a href="/projects/">Experience</a> / <a href="/cv/">C.V.</a> / <a href="https://www.linkedin.com/in/vishwajeet-jadhav-844947255/">LinkedIn</a>
 </div>
