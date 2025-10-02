@@ -37,7 +37,7 @@ I would often spend hours in my 2nd year running device simulations in TCAD, exp
 
 However, it did teach me a lot about device physics honestly. I was lucky to have access to Sentaurus TCAD while learning introductory semiconductor physics, so I could actually visualize the variation of potential along different directions in different devices and correlate the same to my theory classes.
 
-I also got to know firsthand that not all of our research endevours lead to success and that this is infact a very time consuming route - but I chose it nevertheless.
+I also got to know firsthand that not all of our research endevours lead to success and that this is infact a very time consuming route - but I chose to pursure research further nevertheless.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
