@@ -3,13 +3,43 @@ layout: default
 ---
 {% assign resume = site.data.resume %}
 
+<style>
+/* Custom CSS for a cleaner look */
+.resume-section-divider {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.experience-card {
+    border-left: 4px solid #007bff; /* Accent color for the left border */
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+.experience-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; /* Subtle lift on hover */
+    transform: translateY(-2px);
+}
+.card-header-custom {
+    background-color: #f8f9fa; /* Light background for the header */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 0.5rem;
+}
+.highlight-list li {
+    padding-left: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+</style>
+
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ resume.basics.name }}</h1>
-    <p class="post-description">
+  <header class="post-header mb-4 pb-2 border-bottom">
+    <h1 class="post-title display-4 font-weight-bold mb-1">{{ resume.basics.name }}</h1>
+    <p class="lead text-muted">
       {% if resume.basics.email %}
-        <i class="far fa-envelope" aria-hidden="true"></i>
+        <i class="far fa-envelope mr-1" aria-hidden="true"></i>
         <a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a>
         &nbsp;&nbsp;&middot;&nbsp;&nbsp;
       {% endif %}
@@ -17,18 +47,18 @@ layout: default
       {% if resume.basics.profiles %}
         {% for profile in resume.basics.profiles %}
           {% if profile.network == "LinkedIn" %}
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
-            <a href="{{ profile.url }}">LinkedIn</a>
+            <i class="fab fa-linkedin mr-1" aria-hidden="true"></i>
+            <a href="{{ profile.url }}" target="_blank">LinkedIn</a>
             &nbsp;&nbsp;&middot;&nbsp;&nbsp;
           {% elsif profile.network == "Website" %}
-            <i class="fas fa-globe" aria-hidden="true"></i>
-            <a href="{{ profile.url }}">Website</a>
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i>
+            <a href="{{ profile.url }}" target="_blank">Website</a>
             &nbsp;&nbsp;&middot;&nbsp;&nbsp;
           {% endif %}
         {% endfor %}
       {% endif %}
       
-      <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+      <i class="fas fa-map-marker-alt mr-1" aria-hidden="true"></i>
       {{ resume.basics.location }}
     </p>
   </header>
@@ -37,23 +67,26 @@ layout: default
 
     {% comment %} Education Section {% endcomment %}
     {% if resume.education.size > 0 %}
-    <h2 class="year">Education</h2>
+    <h2 class="year mt-4">Education</h2>
+    <hr class="resume-section-divider">
     {% for edu in resume.education %}
-      <div class="card mt-3">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-8">
-              <h5 class="card-title font-weight-bold mb-1">{{ edu.institution }}</h5>
-              <h6 class="card-subtitle font-weight-bold mb-1">{{ edu.studyType }} in {{ edu.area }}</h6>
+      <div class="card experience-card shadow-sm">
+        <div class="card-header card-header-custom">
+          <div class="row align-items-center">
+            <div class="col-sm-8">
+              <h5 class="card-title font-weight-bold mb-0">{{ edu.institution }}</h5>
+              <p class="card-subtitle text-muted mb-0">{{ edu.studyType }} in {{ edu.area }}</p>
             </div>
-            <div class="col-4 text-right">
-              <p class="card-text">{{ edu.startDate }} – {{ edu.endDate }}</p>
+            <div class="col-sm-4 text-right">
+              <p class="card-text text-muted mb-0">{{ edu.startDate }} – {{ edu.endDate }}</p>
             </div>
           </div>
+        </div>
+        <div class="card-body py-3">
           {% if edu.highlights %}
-            <ul class="resume-list">
+            <ul class="highlight-list list-unstyled">
             {% for highlight in edu.highlights %}
-              <li>{{ highlight | markdownify }}</li>
+              <li><i class="fas fa-caret-right text-primary mr-2"></i> {{ highlight | markdownify }}</li>
             {% endfor %}
             </ul>
           {% endif %}
@@ -62,25 +95,28 @@ layout: default
     {% endfor %}
     {% endif %}
 
-    {% comment %} Work/Internship Section {% endcomment %}
+    {% comment %} Research Internship Section {% endcomment %}
     {% if resume.work.size > 0 %}
-    <h2 class="year">Research Internship</h2>
+    <h2 class="year mt-4">Research Internship</h2>
+    <hr class="resume-section-divider">
     {% for work in resume.work %}
-      <div class="card mt-3">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-8">
-              <h5 class="card-title font-weight-bold mb-1">{{ work.position }}</h5>
-              <h6 class="card-subtitle mb-1">{{ work.name }}</h6>
+      <div class="card experience-card shadow-sm">
+        <div class="card-header card-header-custom">
+          <div class="row align-items-center">
+            <div class="col-sm-8">
+              <h5 class="card-title font-weight-bold mb-0">{{ work.position }}</h5>
+              <p class="card-subtitle text-muted mb-0">{{ work.name }}</p>
             </div>
-            <div class="col-4 text-right">
-              <p class="card-text">{{ work.startDate }} – {{ work.endDate }}</p>
+            <div class="col-sm-4 text-right">
+              <p class="card-text text-muted mb-0">{{ work.startDate }} – {{ work.endDate }}</p>
             </div>
           </div>
+        </div>
+        <div class="card-body py-3">
           {% if work.highlights %}
-            <ul class="resume-list">
+            <ul class="highlight-list list-unstyled">
             {% for highlight in work.highlights %}
-              <li>{{ highlight | markdownify }}</li>
+              <li><i class="fas fa-caret-right text-primary mr-2"></i> {{ highlight | markdownify }}</li>
             {% endfor %}
             </ul>
           {% endif %}
@@ -89,28 +125,31 @@ layout: default
     {% endfor %}
     {% endif %}
 
-    {% comment %} Projects/Research Experience Section (Mapped from projects array) {% endcomment %}
+    {% comment %} Projects/Research Experience Section {% endcomment %}
     {% if resume.projects.size > 0 %}
-    <h2 class="year">Research & Academic Projects</h2>
+    <h2 class="year mt-4">Research & Academic Projects</h2>
+    <hr class="resume-section-divider">
     {% for project in resume.projects %}
-      <div class="card mt-3">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-8">
-              <h5 class="card-title font-weight-bold mb-1">{{ project.title }}</h5>
-              <h6 class="card-subtitle mb-1">{{ project.organization }}</h6>
+      <div class="card experience-card shadow-sm">
+        <div class="card-header card-header-custom">
+          <div class="row align-items-center">
+            <div class="col-sm-8">
+              <h5 class="card-title font-weight-bold mb-0">{{ project.title }}</h5>
+              <p class="card-subtitle text-muted mb-0">{{ project.organization }}</p>
             </div>
-            <div class="col-4 text-right">
-              <p class="card-text">
+            <div class="col-sm-4 text-right">
+              <p class="card-text text-muted mb-0">
                 {% if project.startDate %}{{ project.startDate }}{% endif %}
                 {% if project.endDate %} – {{ project.endDate }}{% endif %}
               </p>
             </div>
           </div>
+        </div>
+        <div class="card-body py-3">
           {% if project.highlights %}
-            <ul class="resume-list">
+            <ul class="highlight-list list-unstyled">
             {% for highlight in project.highlights %}
-              <li>{{ highlight | markdownify }}</li>
+              <li><i class="fas fa-caret-right text-primary mr-2"></i> {{ highlight | markdownify }}</li>
             {% endfor %}
             </ul>
           {% endif %}
@@ -121,10 +160,12 @@ layout: default
 
     {% comment %} Academic Achievements Section {% endcomment %}
     {% if resume.awards.size > 0 %}
-    <h2 class="year">Academic Achievements</h2>
-      <ul class="resume-list">
+    <h2 class="year mt-4">Academic Achievements</h2>
+    <hr class="resume-section-divider">
+      <ul class="highlight-list list-unstyled">
       {% for award in resume.awards %}
-        <li>
+        <li class="mb-2">
+          <i class="fas fa-trophy text-warning mr-2"></i>
           {% if award.url %}
             <a href="{{ award.url }}" target="_blank">
           {% endif %}
@@ -141,10 +182,13 @@ layout: default
 
     {% comment %} Skills Section {% endcomment %}
     {% if resume.skills.size > 0 %}
-    <h2 class="year">Skills</h2>
+    <h2 class="year mt-4">Skills</h2>
+    <hr class="resume-section-divider">
       <ul class="list-unstyled">
       {% for skill in resume.skills %}
-        <li><strong>{{ skill.name }}:</strong> {{ skill.keywords | join: ", " }}</li>
+        <li class="mb-2">
+          <strong>{{ skill.name }}:</strong> {{ skill.keywords | join: ", " }}
+        </li>
       {% endfor %}
       </ul>
     {% endif %}
