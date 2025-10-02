@@ -14,7 +14,7 @@ This project was a part of my elective course on Digital Image Processing, condu
 
 ## Project Details
 
-**Duration:** Sept 2024 – Nov 2024  <br>
+**Duration:** Sept 2024 – Oct 2024  <br>
 **Advisor:** [Prof. Vinod Pankajakshan](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100564.html), <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Associate Professor, <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Electronics and Communication Engineering, IIT-Roorkee <br>
