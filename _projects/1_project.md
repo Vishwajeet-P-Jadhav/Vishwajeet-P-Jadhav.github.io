@@ -2,7 +2,7 @@
 layout: page
 title: Ultra High Bandwidth Continuous Time $\Delta\Sigma$ ADC Design
 description: Final year undergraduate thesis
-img: assets/img/12.jpg
+img: assets/img/ctdsm_1.png
 importance: 1
 category: Research Projects
 related_publications: false
@@ -41,10 +41,10 @@ Practically impementing at the circuit level has taught me a lot about challenge
 
 <div class="row">
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ctdsm_1.jpg" title="ctdsm1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ctdsm_1.png" title="ctdsm1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ctdsm_2.jpg" title="ctdsm2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ctdsm_2.png" title="ctdsm2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

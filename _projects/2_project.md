@@ -2,7 +2,7 @@
 layout: page
 title: CMOS Potentiostat for Glucose Biosensing
 description: Undergraduate Research at IIT-Roorkee
-img: assets/img/isicas_presentation.jpg
+img: assets/img/potentiostat_ckt.png
 importance: 1
 category: Research Projects
 ---
@@ -43,7 +43,7 @@ I also had the opportunity to present my work on this project at the Student res
         {% include figure.liquid path="assets/img/isicas_presentation.jpg" title="isicas img" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/potentiostat_ckt.jpg" title="ckt img" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/potentiostat_ckt.png" title="ckt img" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
