@@ -10,7 +10,7 @@ category: Research Projects
 
 ## Overview
 
-This project was a part of my honours course on mixed-signal circuit design where we were tasked with designing a 4-th order Continuous Time Butterworth filter in SCL-180nm pdk in Cadence virtuoso at the schematic level.
+In my 2nd year of undergrad I volunteered at the [Dirac Lab](https://www.iitr.ac.in/diraclab/) at IIT-Roorkee, where I worked on modeling variation of extrinsic resistance in nanosheet FETs
 
 ## Project Details
 
@@ -22,8 +22,8 @@ This project was a part of my honours course on mixed-signal circuit design wher
 
 ## Research Objectives
 
-1. Design a single ended two-stage Miller compensated OTA with given specifications
-2. Implement a Tow-Thomas Biquad filter using the previously designed OTA
+1. Running device level simulations in Sentaurus TCAD
+2. Extracting and modeling the resistance variation numerically in MATLAB
 
 ## Technologies used
 - Sentaurus TCAD
@@ -31,6 +31,7 @@ This project was a part of my honours course on mixed-signal circuit design wher
 
 ## Learning Outcomes
 
-This was my first time ever designing an OTA, which I had done using the gm/Id method. I learnt a little bit of ocean scripting in Cadence for exporting transistor data for analysis and processed the gm/Id tables in MATLAB. Optimizing for the best set of parameters had me going back and forth between the gm/Id plots and the small-signal expressions. 
-
-The OTA was designed for the assigned specifications and then used in the schematic for Tow-Thomas biquad filter. Two 2nd order filters were cascaded to get the final filter schematic. The exact filter coefficients were obtained from MATLAB.
+This was my first real exposure to electronics research in general, and I dived in headfirst into compact modeling without any prior theoretical foundation. However, fortunately this was also the time when I was doing my introductory semiconductor physics course in parallel. 
+I would often spend hours in my 2nd year running device simulations in TCAD, exporting that data and trying to fit models onto the Id-Vd and Id-Vg curves. Unlike my other projects and research work in circuits, my work in compact modeling never really came to complete fruition, as in I could not achieve the initial ambitious goal of proposing a new physics based model for resistance variation in nanosheet FETs. At best I was able to get semi-empirical models to fit the device data.
+However, it did teach me a lot about device physics honestly. I was lucky to have access to Sentaurus TCAD while learning introductory semiconductor physics, so I could actually visualize the variation of potential along different directions in different devices and correlate the same to my theory classes.
+I also got to know firsthand that not all of our research endevours lead to success and that this is infact a very time consuming route - but I chose it nevertheless.
