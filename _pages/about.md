@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 Hi. I'm a final year undergrad honours student in Electronics and Communication Engineering at [Indian Institute of Technology, Roorkee (IIT-R)](https://www.iitr.ac.in/). 
 
-My research interests lie in analog/mixed signal IC design for high-speed communication systems and biomedical circuits. I am an [IUSSTF-Viterbi'25](https://iusstf.org/iusstf-viterbi-program) scholar, and I spent my research intenrship at [ACME lab](https://acme.usc.edu/) at University of Southern California (USC), working on biomedical circuits.
+My research interests lie in analog/mixed signal IC design for high-speed communication systems and biomedical circuits. I am an [IUSSTF-Viterbi'25](https://iusstf.org/iusstf-viterbi-program) scholar, and I spent my research internship at [ACME lab](https://acme.usc.edu/) at University of Southern California (USC), working on biomedical circuits.
 
 My research work at IIT-Roorkee spans multiple projects in the areas of analog/mixed signal circuit design, including my final year thesis on an Ultra High Bandwidth Continuous Time $\Delta\Sigma$ ADC design. I've also served as a TA once for an undergrad course on Signals and Systems.
 
