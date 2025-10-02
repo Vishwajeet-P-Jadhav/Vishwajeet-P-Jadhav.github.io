@@ -29,6 +29,17 @@
         "**Coursework**: Mixed Signal Circuit Design, Analog circuits, Electronic Network Theory, Automatic Control Systems, Signals and Systems, Digital Signal Processing, RF and Mixed Signal Circuits, Fundamentals of Microelectronics, Digital Logic Design, Digital Image Processing, Embedded System Design, Microwave Engineering, Computer Architecture and Organization, Semiconductor physics",
         "**Other**: Undergraduate Teaching Assistant - ECC-106 (Signals and Systems), Spring 2025"
       ]
+    },
+    {
+      "institution": "Woodridge High School, Aurangabad",
+      "area": "Higher Secondary Education (Class XII) and Secondary Education (Class X)",
+      "studyType": "Intermediate & Matriculate",
+      "startDate": "2010",
+      "endDate": "2022",
+      "highlights": [
+        "**Class XII**: 97.20%",
+        "**Class X**: 96.60%"
+      ]
     }
   ],
   "work": [
@@ -56,6 +67,7 @@
         "Proposed a **digital logic based ELD compensation scheme** for ELD>1 clock cycles for CT-DSM and verified logic through simulation both in MATLAB and ideal blocks in Cadence.",
         "Targeting a **200MHz bandwidth** and **68dB SNDR** at a sampling rate of 9.6GHz.",
         "Currently designing the modulator in **GF 22nm FDSOI** technology node.",
+        "This project is part of my final year undergraduate thesis project.",
         "Advisor: **[Prof. Sarvana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html)**, Assistant Professor, ECE Department, IIT Roorkee"
       ]
     },
@@ -67,7 +79,7 @@
       "highlights": [
         "Implemented a potentiostat for glucose biosensing in **180nm CMOS technology node** in Cadence Virtuoso at schematic level.",
         "Presented the research at the student research forum at **[IEEE ISICAS 2024](https://isicas2024.org/cass_workshop_agenda.php)**.",
-        "Advisor: **[Prof. Sarvana Kumar M.](https://ece.iitr.ac.in/saravana-kumar-m/)** , Assistant Professor, ECE Department, IIT Roorkee"
+        "Advisor: **[Prof. Sarvana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html)**, Assistant Professor, ECE Department, IIT Roorkee"
       ]
     },
     {
@@ -85,8 +97,8 @@
       "title": "Design of a 4th order CT Butterworth Filter in 180nm node in Cadence Virtuoso",
       "organization": "ECL-538 : Mixed Signal Circuit Design course",
       "highlights": [
-        "Implemented the filter as a cascade of two single-ended **Tow Thomas Biquad filters**.",
-        "Each stage utilised a previously designed two-stage Miller compensated OTA, designed using **gm/Id technique**. Entire design was carried out in SCL 180nm pdk."
+        "Implemented the filter as a cascade of two single-ended Tow Thomas Biquad filters.",
+        "Each stage of filter utilised a previously designed two-stage Miller compensated OTA, designed using gm/Id technique. Entire design was carried out in SCL 180nm pdk."
       ]
     },
     {
