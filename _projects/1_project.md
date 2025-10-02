@@ -18,7 +18,9 @@ This project started out as an investigation of ELD-compensation techniques for 
 
 **Duration:** Jan 2025 – Present  <br>
 **Role:** Undergraduate Thesis Student  <br>
-**Advisor:** [Prof. Saravana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html), Assistant Professor, Electronics and Communication Engineering, IIT-Roorkee <br>
+**Advisor:** [Prof. Saravana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html),
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Assistant Professor, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Electronics and Communication Engineering, IIT-Roorkee <br>
 
 ## Research Objectives
 

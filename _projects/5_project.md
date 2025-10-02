@@ -16,8 +16,8 @@ I spent my summer of 2025 at the University of Southern California, Los Angeles 
 **Duration:** May 2025 – July 2025  <br>
 **Role:** Summer Research Intern    <br>
 **Advisor:** [Prof. Constantine Sideris](https://minghsiehece.usc.edu/directory/faculty/profile/?lname=Sideris&fname=Constantine), <br>
-Associate Professor, <br>
-Electrical and Computer Engineering, USC <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Associate Professor, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Electronics and Computer Engineering, USC <br>
 
 ## Research Objectives
 
@@ -43,6 +43,8 @@ Electrical and Computer Engineering, USC <br>
 </div>
 
 ## Learning Outcomes
-This was my first time characterizing an actual fabricated chip. I got to design the testing PCB for the neurostimulator chip, solder the manufactured PCB and help out with testing the chip. I programmed the microcontroller that was used for configuring the DSP units of the chip and recorded the stimulated waveforms in the oscilloscopes.
+I was tasked with designing the testbench for characterizing the custom neurostimulator chip, which was back from tapeout. I got to design the PCB for testing the IC, which included power management section, current references, voltage regulators and also a raspberry-pi module which was used for configuring the DSP unit of the chip [I made a mistake in the dimensions of the microcontroller footprint while designing, luckily we worked around it while soldering the components. You can see that in the image above]. 
 
-In the IC design project, it was again my first time designing at GHz frequencies. The circuitry there was primarily a PLL made up of an LC-tank VCO which would be interfaced with magnetic nanoparticles for frequency shift-based bio-assay. 
+After the board was ready, I worked on the chip measurements. This was my first time characterizing an actual fabricated chip, so it was a great learning experience honestly. For the measurements, I programmed the microcontroller for configuring the DSP unit and recorded the stimulator waveforms in an oscilloscope.
+
+In the IC design project, it was again my first time designing at GHz frequencies. The circuitry there was primarily a PLL made up of an LC-tank VCO which would be interfaced with magnetic nanoparticles for frequency shift-based bio-assay. I modeled the behaviour of the nanoparticles in Cadence by exporting custom s-parameter files to check the frequency dependent inductance. This was then embedded in the PLL to check the behaviour. I proposed certain detection schemes with this architecture, some were more prone to non-idealitites than others. It was a very enriching experience overall - I had guidance from great mentors and a cohort of 15 IUSSTF scholars to keep me company.

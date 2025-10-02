@@ -16,7 +16,9 @@ This project constituted the design of a glucose potentiostat at the schematic l
 
 **Duration:** April 2024 – Jan 2025  <br>
 **Role:** Undergraduate Researcher  <br>
-**Advisor:** [Prof. Saravana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html), Assistant Professor, Electronics and Communication Engineering, IIT-Roorkee <br>
+**Advisor:** [Prof. Saravana Kumar M.](https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html), <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Assistant Professor, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Electronics and Communication Engineering, IIT-Roorkee <br>
 
 ## Research Objectives
 
