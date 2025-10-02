@@ -1,21 +1,7 @@
 {
   "basics": {
-    "name": "Vishwajeet Jadhav",
-    "email": "vishwajeet_pj@ece.iitr.ac.in",
-    "location": "IIT Roorkee",
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "Vishwajeet Jadhav",
-        "url": "https://www.linkedin.com/in/vishwajeet-jadhav-844947255"
-      },
-      {
-        "network": "Website",
-        "username": "My Website",
-        "url": "https://vishwajeet-p-jadhav.github.io/"
-      }
-    ]
-  },
+    "name": "Vishwajeet Jadhav"
+    },
   "education": [
     {
       "institution": "Indian Institute of Technology, Roorkee",
@@ -112,7 +98,7 @@
   ],
   "awards": [
     {
-      "title": "**IUSSTF - Viterbi 2025 Fellow**",
+      "title": "IUSSTF - Viterbi 2025 Fellow",
       "date": "2025",
       "awarder": "Indo-US Science and Technology Forum (IUSSTF)",
       "summary": "Part of a highly selective 15 student research cohort at University of Southern California for summer of 2025. ([Link to Program](https://iusstf.org/iusstf-viterbi-program))"
@@ -121,7 +107,7 @@
       "title": "IEEE ISICAS 2024 Student Research Forum Presenter",
       "date": "2024",
       "awarder": "IEEE International Symposium on Integrated Circuits and Systems (ISICAS)",
-      "summary": "Presented research work on CMOS Potentiostat implementation. ([Link to Agenda](https://isicas2024.org/cass_workshop_agenda.php))"
+      "summary": "Presented research work on CMOS Potentiostat implementation."
     },
     {
       "title": "Selected for International Astronomy Olympiad Final Camp Stage",
