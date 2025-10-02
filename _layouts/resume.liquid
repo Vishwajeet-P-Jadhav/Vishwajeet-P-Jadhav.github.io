@@ -61,6 +61,14 @@ layout: default
       <i class="fas fa-map-marker-alt mr-1" aria-hidden="true"></i>
       {{ resume.basics.location }}
     </p>
+
+    {% comment %} PDF Download Button Code Restored Here {% endcomment %}
+    {% if page.cv_pdf %}
+      <a href="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="btn btn-sm btn-primary mt-2">
+        <i class="fas fa-file-pdf mr-2"></i> Download PDF
+      </a>
+    {% endif %}
+    
   </header>
 
   <article>
@@ -95,7 +103,7 @@ layout: default
     {% endfor %}
     {% endif %}
 
-    {% comment %} Research Internship Section {% endcomment %}
+    {% comment %} Work/Internship Section {% endcomment %}
     {% if resume.work.size > 0 %}
     <h2 class="year mt-4">Research Internship</h2>
     <hr class="resume-section-divider">
