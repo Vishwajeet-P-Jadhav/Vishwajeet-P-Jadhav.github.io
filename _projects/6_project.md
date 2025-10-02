@@ -2,7 +2,7 @@
 layout: page
 title: Resistance Modeling in Nanosheet FETs
 description: Undergraduate Research at IIT-Roorkee
-img:
+img: assets/img/5sheet_structure.png
 importance: 4
 category: Research Projects
 ---
