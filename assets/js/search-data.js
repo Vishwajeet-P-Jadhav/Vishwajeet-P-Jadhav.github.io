@@ -49,8 +49,8 @@ ninja.data = [{
           description: "Undergraduate Research at IIT-Roorkee",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-design-of-a-4th-order-continuous-time-butterworth-filter",
-          title: 'Design of a 4th order Continuous Time Butterworth Filter',
+            },},{id: "projects-continuous-time-filter-design",
+          title: 'Continuous Time Filter Design',
           description: "Mixed signal circuit design course project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
