@@ -10,7 +10,7 @@ category: Semester Projects
 
 ## Overview
 
-This project was a part of my elective course on Digital Image Processing, conducted by Prof. Vinod Pankajakshan. As a part of this project, we were tasked with detecting whether the frame rate of a video had been upconverted on the basis of a drop in frame edge intens
+This project was a part of my elective course on Digital Image Processing, conducted by Prof. Vinod Pankajakshan. As a part of this project, we were tasked with detecting whether the frame rate of a video had been upconverted on the basis of a drop in frame edge intensity. Upconversion of video frame rate will involve producing new intermediate frames, which will involve some sort of an averaging operation which would smoothen out the edges of the image. That was the premise of this project. 
 
 ## Project Details
 
@@ -22,26 +22,12 @@ This project was a part of my elective course on Digital Image Processing, condu
 
 ## Project Objectives
 
-1. Design a single ended two-stage Miller compensated OTA with given specifications
-2. Implement a Tow-Thomas Biquad filter using the previously designed OTA
+1. Exploring different possible ways of detecting edge intensity levels of frames
+2. Using the above to detect frame rate upconversion
 
 
 ## Learning Outcomes
 
-This was my first time ever designing an OTA, which I had done using the gm/Id method. I learnt a little bit of ocean scripting in Cadence for exporting transistor data for analysis and processed the gm/Id tables in MATLAB. Optimizing for the best set of parameters had me going back and forth between the gm/Id plots and the small-signal expressions. 
-
-The OTA was designed for the assigned specifications and then used in the schematic for Tow-Thomas biquad filter. Two 2nd order filters were cascaded to get the final filter schematic. The exact filter coefficients were obtained from MATLAB.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/OTA_ckt.png" title="ota img" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Tow_thomas.png" title="filter img" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The schematic of my OTA on the left and 2nd order Tow-Thomas Biquad filter on the right. The entire filter was implemented as a cascade of two such stages.
-</div>
+This project, although shirt, was quite different frmo my usual work in Microelectronics. In a way it was like a breath of fresh air for me, introducing me to the field of image processing as well as forensics.
+I was able to practically apply the knowledge of various transforms that I had learnt in this course through this project.
 
