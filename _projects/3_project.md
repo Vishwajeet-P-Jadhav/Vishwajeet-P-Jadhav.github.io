@@ -2,7 +2,6 @@
 layout: page
 title: Continuous Time Filter Design
 description: Mixed signal circuit design course project
-img: assets/img/7.jpg
 importance: 1
 category: Semester Projects
 ---

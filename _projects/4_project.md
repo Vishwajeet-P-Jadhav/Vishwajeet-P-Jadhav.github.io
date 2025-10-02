@@ -2,7 +2,6 @@
 layout: page
 title: Frame Rate Upconversion Detection
 description: Digital Image Processing course project
-img: assets/img/7.jpg
 importance: 3
 category: Semester Projects
 ---
@@ -28,6 +27,6 @@ This project was a part of my elective course on Digital Image Processing, condu
 
 ## Learning Outcomes
 
-This project, although short, was quite different frmo my usual work in Microelectronics. In a way it was like a breath of fresh air for me, introducing me to the field of image processing as well as forensics.
+This project, although short, was quite different from my usual work in Microelectronics. In a way it was like a breath of fresh air for me, introducing me to the field of image processing as well as forensics.
 I was able to practically apply the knowledge of various transforms that I had learnt in this course through this project.
 
