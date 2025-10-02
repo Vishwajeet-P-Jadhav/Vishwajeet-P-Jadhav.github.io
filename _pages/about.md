@@ -27,5 +27,5 @@ My final year thesis here at IIT-Roorkee is on the design of an ultra high-bandw
 Feel free to know more about me in the links below :
 
 <div class="text-center">
-  [Experience](/experience/) / [C.V.](/cv/)
+  <a href="/projects/">Experience</a> / <a href="/cv/">C.V.</a>
 </div>
