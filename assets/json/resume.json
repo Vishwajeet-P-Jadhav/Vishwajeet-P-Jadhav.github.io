@@ -19,7 +19,6 @@
     {
       "institution": "Woodridge High School, Aurangabad",
       "area": "Higher Secondary Education (Class XII) and Secondary Education (Class X)",
-      "studyType": "Intermediate & Matriculate",
       "startDate": "2010",
       "endDate": "2022",
       "highlights": [
@@ -45,8 +44,8 @@
   ],
   "projects": [
     {
-      "title": "Design of Ultra-High Bandwidth Continuous Time Delta Sigma ADC",
-      "organization": "Indian Institute of Technology, Roorkee (Undergraduate Thesis)",
+      "title": "Ultra-High Bandwidth Continuous Time &Delta;&Sigma; ADC Design",
+      "organization": "Indian Institute of Technology, Roorkee",
       "startDate": "Dec 2024",
       "endDate": "Present",
       "highlights": [
@@ -58,7 +57,7 @@
       ]
     },
     {
-      "title": "Designing CMOS Potentiostat for Electrochemical Biosensing",
+      "title": "CMOS Potentiostat Design for Electrochemical Biosensing",
       "organization": "Indian Institute of Technology, Roorkee",
       "startDate": "April 2024",
       "endDate": "Jan 2025",
@@ -80,7 +79,7 @@
       ]
     },
     {
-      "title": "Design of a 4th order CT Butterworth Filter in 180nm node in Cadence Virtuoso",
+      "title": "Design of a 4th order CT Butterworth Filter in Cadence Virtuoso",
       "organization": "ECL-538 : Mixed Signal Circuit Design course",
       "highlights": [
         "Implemented the filter as a cascade of two single-ended Tow Thomas Biquad filters.",

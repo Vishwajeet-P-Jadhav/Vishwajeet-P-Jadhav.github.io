@@ -6,77 +6,42 @@ layout: default
 <style>
 /* Custom CSS for final aesthetic, compact, and clean look */
 
-/* 1. Name Font Size Reduction & Header Cleanup */
+/* 1. Name Font Size Reduction & Header Cleanup (Remaining as before) */
 .post-title-custom {
-    font-size: 2.25rem !important; /* Smaller than previous 2.5rem */
+    font-size: 2.25rem !important;
     font-weight: bold;
-    margin-bottom: 0; /* Remove bottom margin */
-    padding-bottom: 0; /* Remove bottom padding */
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .header-details-compact {
-    display: none; /* Hides all contact details and icons in the resume header */
+    display: none;
 }
-.post-header {
-    margin-bottom: 1.5rem !important;
-    padding-bottom: 0.5rem !important;
-}
+/* ... (rest of the non-bullet CSS) ... */
 
-/* 2. Tighter Bullet Points and Alignment (Main Fix) */
+/* 2. Tighter Bullet Points and Alignment (Updated) */
 .highlight-list li {
-    font-size: 0.85rem; /* Smallest content font size for maximum compactness */
+    font-size: 0.85rem;
     padding-left: 0rem;
-    margin-bottom: 0rem; /* ELIMINATED all vertical space between bullets */
-    line-height: 1.35; /* Tighter line height */
+    margin-bottom: 0rem; 
+    line-height: 1.35;
     position: relative;
-    /* Ensure text aligns horizontally with the icon, no forced line wrap */
-    padding-left: 1.5em; /* Space for the icon */
-    text-indent: -1.5em; /* Pulls the icon back */
+    /* Reset indentation to use simple list bullets */
+    padding-left: 1.5em; 
+    text-indent: -1.5em; 
+    list-style-type: disc; /* Use standard disc bullet point */
+}
+/* REMOVED: .highlight-list li .fas { ... } to stop rendering the icons */
+.highlight-list {
+    padding-left: 1.5em; /* Ensure the list itself has some left margin */
 }
 .highlight-list li .fas {
-    margin-right: 0.5em; /* Space between icon and text */
+    display: none; /* Explicitly hide the icons */
 }
+/* ... (rest of the CSS) ... */
 
-/* 3. General Compactness (reduced padding/margins) */
-.resume-section-divider {
-    margin-top: 0.5rem;
-    margin-bottom: 0.8rem; /* Further reduced vertical space */
-}
-.experience-card {
-    margin-bottom: 0.8rem; /* Reduced space between cards */
-}
-.card-header-custom {
-    padding: 0.4rem 1rem; /* Reduced padding */
-}
-.card-body {
-    padding: 0.6rem 1rem; /* Reduced padding */
-}
-.card-title, .card-subtitle, .card-text {
-    font-size: 0.95rem !important; /* Smaller text in card headers */
-}
 </style>
 
 <div class="post">
-
-  <header class="post-header mb-3 pb-1 border-bottom">
-    <h1 class="post-title-custom mb-1">{{ resume.basics.name }}</h1>
-    
-    {% comment %} 
-    Removed contact details (email, LinkedIn, location) as requested 
-    The post-description div is hidden via CSS class .header-details-compact
-    {% endcomment %}
-    <p class="header-details-compact">
-      {{ resume.basics.email }} | {{ resume.basics.location }}
-    </p>
-
-    {% comment %} PDF Download Button Code Retained {% endcomment %}
-    {% if page.cv_pdf %}
-      <a href="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="btn btn-sm btn-primary mt-1">
-        <i class="fas fa-file-pdf mr-2"></i> Download PDF
-      </a>
-    {% endif %}
-    
-  </header>
-
   <article>
 
     {% comment %} Education Section {% endcomment %}
@@ -86,21 +51,12 @@ layout: default
     {% for edu in resume.education %}
       <div class="card experience-card shadow-sm">
         <div class="card-header card-header-custom">
-          <div class="row align-items-center">
-            <div class="col-sm-8">
-              <h5 class="card-title font-weight-bold mb-0">{{ edu.institution }}</h5>
-              <p class="card-subtitle mb-0">{{ edu.studyType }} in {{ edu.area }}</p>
-            </div>
-            <div class="col-sm-4 text-right">
-              <p class="card-text mb-0">{{ edu.startDate }} – {{ edu.endDate }}</p>
-            </div>
           </div>
-        </div>
         <div class="card-body py-3">
           {% if edu.highlights %}
-            <ul class="highlight-list list-unstyled">
+            <ul class="highlight-list">  <-- Removed list-unstyled
             {% for highlight in edu.highlights %}
-              <li><i class="fas fa-caret-right text-primary"></i> {{ highlight | markdownify }}</li>
+              <li> {{ highlight | markdownify }}</li>  <-- Removed icon Liquid
             {% endfor %}
             </ul>
           {% endif %}
@@ -116,21 +72,12 @@ layout: default
     {% for work in resume.work %}
       <div class="card experience-card shadow-sm">
         <div class="card-header card-header-custom">
-          <div class="row align-items-center">
-            <div class="col-sm-8">
-              <h5 class="card-title font-weight-bold mb-0">{{ work.position }}</h5>
-              <p class="card-subtitle mb-0">{{ work.name }}</p>
-            </div>
-            <div class="col-sm-4 text-right">
-              <p class="card-text mb-0">{{ work.startDate }} – {{ work.endDate }}</p>
-            </div>
           </div>
-        </div>
         <div class="card-body py-3">
           {% if work.highlights %}
-            <ul class="highlight-list list-unstyled">
+            <ul class="highlight-list">  <-- Removed list-unstyled
             {% for highlight in work.highlights %}
-              <li><i class="fas fa-caret-right text-primary"></i> {{ highlight | markdownify }}</li>
+              <li> {{ highlight | markdownify }}</li>  <-- Removed icon Liquid
             {% endfor %}
             </ul>
           {% endif %}
@@ -146,24 +93,12 @@ layout: default
     {% for project in resume.projects %}
       <div class="card experience-card shadow-sm">
         <div class="card-header card-header-custom">
-          <div class="row align-items-center">
-            <div class="col-sm-8">
-              <h5 class="card-title font-weight-bold mb-0">{{ project.title }}</h5>
-              <p class="card-subtitle mb-0">{{ project.organization }}</p>
-            </div>
-            <div class="col-sm-4 text-right">
-              <p class="card-text mb-0">
-                {% if project.startDate %}{{ project.startDate }}{% endif %}
-                {% if project.endDate %} – {{ project.endDate }}{% endif %}
-              </p>
-            </div>
           </div>
-        </div>
         <div class="card-body py-3">
           {% if project.highlights %}
-            <ul class="highlight-list list-unstyled">
+            <ul class="highlight-list">  <-- Removed list-unstyled
             {% for highlight in project.highlights %}
-              <li><i class="fas fa-caret-right text-primary"></i> {{ highlight | markdownify }}</li>
+              <li> {{ highlight | markdownify }}</li>  <-- Removed icon Liquid
             {% endfor %}
             </ul>
           {% endif %}
@@ -176,7 +111,7 @@ layout: default
     {% if resume.awards.size > 0 %}
     <h2 class="year mt-3">Academic Achievements</h2>
     <hr class="resume-section-divider">
-      <ul class="highlight-list list-unstyled">
+      <ul class="highlight-list"> <-- Removed list-unstyled
       {% for award in resume.awards %}
         <li class="mb-0">
           {% if award.url %}
@@ -193,7 +128,7 @@ layout: default
       </ul>
     {% endif %}
 
-    {% comment %} Skills Section {% endcomment %}
+    {% comment %} Skills Section (No bullets needed for this section) {% endcomment %}
     {% if resume.skills.size > 0 %}
     <h2 class="year mt-3">Skills</h2>
     <hr class="resume-section-divider">
