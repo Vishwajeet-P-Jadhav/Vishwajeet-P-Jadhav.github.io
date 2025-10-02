@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Design of a CMOS Potentiostat for Glucose Biosensing
-description: Undergraduate Research at IIT-R
-img: assets/img/3.jpg
+title: CMOS Potentiostat for Glucose Biosensing
+description: Undergraduate Research at IIT-Roorkee
+img: assets/img/isicas_presentation.jpg
 importance: 1
 category: Research Projects
 ---
@@ -20,7 +20,9 @@ This project constituted the design of a glucose potentiostat at the schematic l
 
 ## Research Objectives
 
-1. Implement the amplifier-less potentiostat topology in 180nm 
+1. Implement the amplifier-less potentiostat topology using ideal blocks 
+2. Implement individual blocks in 180nm
+3. Look into noise-shaping aspects in the feedback loop
 
 ## Technologies used
 - Cadence virtuoso
