@@ -4,101 +4,71 @@ layout: default
 {% assign resume = site.data.resume %}
 
 <style>
-/* Custom CSS for a compact, dark-mode friendly look */
+/* Custom CSS for final aesthetic, compact, and clean look */
 
-/* 1. Name Font Size Reduction */
+/* 1. Name Font Size Reduction & Header Cleanup */
 .post-title-custom {
-    font-size: 2.5rem !important; /* Reduced from 3.5rem or 4rem */
+    font-size: 2.25rem !important; /* Smaller than previous 2.5rem */
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove bottom padding */
+}
+.header-details-compact {
+    display: none; /* Hides all contact details and icons in the resume header */
+}
+.post-header {
+    margin-bottom: 1.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
 
-/* 2. Consistent Title/Subtitle Color & Font Sizes */
-.experience-card .card-header-custom h5, 
-.experience-card .card-header-custom p.card-subtitle {
-    color: inherit !important; /* Forces text to use theme's default color (works for dark/light mode) */
-    font-size: 1rem; /* Standard title size */
+/* 2. Tighter Bullet Points and Alignment (Main Fix) */
+.highlight-list li {
+    font-size: 0.85rem; /* Smallest content font size for maximum compactness */
+    padding-left: 0rem;
+    margin-bottom: 0rem; /* ELIMINATED all vertical space between bullets */
+    line-height: 1.35; /* Tighter line height */
+    position: relative;
+    /* Ensure text aligns horizontally with the icon, no forced line wrap */
+    padding-left: 1.5em; /* Space for the icon */
+    text-indent: -1.5em; /* Pulls the icon back */
 }
-.experience-card .card-header-custom p.card-subtitle {
-    font-size: 0.95rem; /* Slightly smaller subtitle for hierarchy */
+.highlight-list li .fas {
+    margin-right: 0.5em; /* Space between icon and text */
 }
 
-/* 3. General Aesthetics */
+/* 3. General Compactness (reduced padding/margins) */
 .resume-section-divider {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
     margin-top: 0.5rem;
-    margin-bottom: 1rem; /* Reduced space */
+    margin-bottom: 0.8rem; /* Further reduced vertical space */
 }
 .experience-card {
-    border-left: 4px solid var(--global-theme-color); /* Uses theme primary color */
-    transition: transform 0.2s, box-shadow 0.2s;
-    border-radius: 0.25rem;
-    margin-bottom: 1rem; /* Reduced space between cards */
-}
-.experience-card:hover {
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15) !important; /* Reduced lift/shadow */
-    transform: translateY(-1px);
+    margin-bottom: 0.8rem; /* Reduced space between cards */
 }
 .card-header-custom {
-    background-color: var(--global-divider-color, #f8f9fa); /* Uses a theme variable for compatibility */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    padding: 0.5rem 1.25rem; /* Reduced padding */
+    padding: 0.4rem 1rem; /* Reduced padding */
 }
 .card-body {
-    padding: 0.75rem 1.25rem; /* Reduced padding */
+    padding: 0.6rem 1rem; /* Reduced padding */
 }
-/* 4. Tighter Bullet Points and Smaller Font for Content */
-.highlight-list li {
-    font-size: 0.9rem; /* Reduced content font size */
-    padding-left: 0rem;
-    margin-bottom: 0.1rem; /* Minimized vertical space between bullets */
-    line-height: 1.4;
+.card-title, .card-subtitle, .card-text {
+    font-size: 0.95rem !important; /* Smaller text in card headers */
 }
-.highlight-list .fa-caret-right {
-    display: inline; /* Ensure icon doesn't force a line break */
-}
-.year {
-    margin-bottom: 0.5rem; /* Tighten space above sections */
-}
-.post-description a, .post-description i {
-    font-size: 0.95rem; /* Slightly reduced header details font size */
-}
-
 </style>
 
 <div class="post">
 
   <header class="post-header mb-3 pb-1 border-bottom">
     <h1 class="post-title-custom mb-1">{{ resume.basics.name }}</h1>
-    <p class="lead text-muted">
-      {% comment %} Contact Details with custom size {% endcomment %}
-      {% if resume.basics.email %}
-        <i class="far fa-envelope mr-1" aria-hidden="true"></i>
-        <a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a>
-        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-      {% endif %}
-
-      {% if resume.basics.profiles %}
-        {% for profile in resume.basics.profiles %}
-          {% if profile.network == "LinkedIn" %}
-            <i class="fab fa-linkedin mr-1" aria-hidden="true"></i>
-            <a href="{{ profile.url }}" target="_blank">LinkedIn</a>
-            &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-          {% elsif profile.network == "Website" %}
-            <i class="fas fa-globe mr-1" aria-hidden="true"></i>
-            <a href="{{ profile.url }}" target="_blank">Website</a>
-            &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-      
-      <i class="fas fa-map-marker-alt mr-1" aria-hidden="true"></i>
-      {{ resume.basics.location }}
+    
+    {% comment %} 
+    Removed contact details (email, LinkedIn, location) as requested 
+    The post-description div is hidden via CSS class .header-details-compact
+    {% endcomment %}
+    <p class="header-details-compact">
+      {{ resume.basics.email }} | {{ resume.basics.location }}
     </p>
 
-    {% comment %} PDF Download Button Code Restored {% endcomment %}
+    {% comment %} PDF Download Button Code Retained {% endcomment %}
     {% if page.cv_pdf %}
       <a href="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="btn btn-sm btn-primary mt-1">
         <i class="fas fa-file-pdf mr-2"></i> Download PDF
@@ -130,7 +100,7 @@ layout: default
           {% if edu.highlights %}
             <ul class="highlight-list list-unstyled">
             {% for highlight in edu.highlights %}
-              <li><i class="fas fa-caret-right text-primary mr-2"></i> {{ highlight | markdownify }}</li>
+              <li><i class="fas fa-caret-right text-primary"></i> {{ highlight | markdownify }}</li>
             {% endfor %}
             </ul>
           {% endif %}
@@ -160,7 +130,7 @@ layout: default
           {% if work.highlights %}
             <ul class="highlight-list list-unstyled">
             {% for highlight in work.highlights %}
-              <li><i class="fas fa-caret-right text-primary mr-2"></i> {{ highlight | markdownify }}</li>
+              <li><i class="fas fa-caret-right text-primary"></i> {{ highlight | markdownify }}</li>
             {% endfor %}
             </ul>
           {% endif %}
@@ -193,7 +163,7 @@ layout: default
           {% if project.highlights %}
             <ul class="highlight-list list-unstyled">
             {% for highlight in project.highlights %}
-              <li><i class="fas fa-caret-right text-primary mr-2"></i> {{ highlight | markdownify }}</li>
+              <li><i class="fas fa-caret-right text-primary"></i> {{ highlight | markdownify }}</li>
             {% endfor %}
             </ul>
           {% endif %}
@@ -202,13 +172,13 @@ layout: default
     {% endfor %}
     {% endif %}
 
-    {% comment %} Academic Achievements Section (Icons removed) {% endcomment %}
+    {% comment %} Academic Achievements Section (Icons removed, compact spacing) {% endcomment %}
     {% if resume.awards.size > 0 %}
     <h2 class="year mt-3">Academic Achievements</h2>
     <hr class="resume-section-divider">
       <ul class="highlight-list list-unstyled">
       {% for award in resume.awards %}
-        <li class="mb-2">
+        <li class="mb-0">
           {% if award.url %}
             <a href="{{ award.url }}" target="_blank">
           {% endif %}
@@ -229,7 +199,7 @@ layout: default
     <hr class="resume-section-divider">
       <ul class="list-unstyled">
       {% for skill in resume.skills %}
-        <li class="mb-1" style="font-size: 0.9rem;">
+        <li class="mb-1" style="font-size: 0.85rem;">
           <strong>{{ skill.name }}:</strong> {{ skill.keywords | join: ", " }}
         </li>
       {% endfor %}
