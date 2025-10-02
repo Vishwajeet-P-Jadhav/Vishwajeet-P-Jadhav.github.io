@@ -27,5 +27,5 @@ My final year thesis here at IIT-Roorkee is on the design of an ultra high-bandw
 Feel free to know more about me in the links below :
 
 <div class="text-center">
-  <a href="/projects/">Experience</a> / <a href="/cv/">C.V.</a> / <a href="https://www.linkedin.com/in/vishwajeet-jadhav-844947255/">LinkedIn</a>
+  <a href="/projects/">Experience</a> / <a href="//assets/pdf/Vishwajeet_Jadhav_CV.pdf/">C.V.</a> / <a href="https://www.linkedin.com/in/vishwajeet-jadhav-844947255/">LinkedIn</a>
 </div>
