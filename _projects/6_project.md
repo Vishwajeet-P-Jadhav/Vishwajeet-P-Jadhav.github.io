@@ -35,3 +35,18 @@ This was my first real exposure to electronics research in general, and I dived 
 I would often spend hours in my 2nd year running device simulations in TCAD, exporting that data and trying to fit models onto the Id-Vd and Id-Vg curves. Unlike my other projects and research work in circuits, my work in compact modeling never really came to complete fruition, as in I could not achieve the initial ambitious goal of proposing a new physics based model for resistance variation in nanosheet FETs. At best I was able to get semi-empirical models to fit the device data.
 However, it did teach me a lot about device physics honestly. I was lucky to have access to Sentaurus TCAD while learning introductory semiconductor physics, so I could actually visualize the variation of potential along different directions in different devices and correlate the same to my theory classes.
 I also got to know firsthand that not all of our research endevours lead to success and that this is infact a very time consuming route - but I chose it nevertheless.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/single_sheet.jpg" title="single sheet" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5sheet_structure.png" title="5sheet str" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tcad_curve_fits.png" title="curve fits" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Some images from my project. The leftmost is the simulation of a single isolated nanosheet done for extracting potential varation in absence of the pillar like structures. The middle image is that of a 5 sheet NSFET and the last image is one of the Id-Vg curve fits.
+</div>
