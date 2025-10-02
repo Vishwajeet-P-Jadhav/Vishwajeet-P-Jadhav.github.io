@@ -39,14 +39,14 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-design-of-ultra-high-bandwidth-continuous-time-delta-sigma-adc",
-          title: 'Design of Ultra High Bandwidth Continuous Time Delta Sigma ADC',
+          section: "News",},{id: "projects-ultra-high-bandwidth-continuous-time-delta-sigma-adc-design",
+          title: 'Ultra High Bandwidth Continuous Time $\Delta\Sigma$ ADC Design',
           description: "Final year undergraduate thesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-design-of-a-cmos-potentiostat-for-glucose-biosensing",
-          title: 'Design of a CMOS Potentiostat for Glucose Biosensing',
-          description: "Undergraduate Research at IIT-R",
+            },},{id: "projects-cmos-potentiostat-for-glucose-biosensing",
+          title: 'CMOS Potentiostat for Glucose Biosensing',
+          description: "Undergraduate Research at IIT-Roorkee",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-design-of-a-4th-order-continuous-time-butterworth-filter",
