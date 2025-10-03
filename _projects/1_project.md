@@ -25,7 +25,7 @@ This project started out as an investigation of ELD-compensation techniques for 
 ## Research Objectives
 
 1. Designing an ultra-high bandwidth Continuous Time Delta Sigma ADC 
-2. Compensating for an ELD > 1 clock cycle
+2. Targeting 68dB SNDR and a Bandwidth of 200MHz
 
 ## Technologies used
 - Cadence virtuoso
@@ -33,7 +33,7 @@ This project started out as an investigation of ELD-compensation techniques for 
 
 ## Learning Outcomes
 
-This project was initially a semester project wherein my teammate and I were tasked with investigating techniques to compensate for ELD > 1 clock cycle in CT-DSM. At MATLAB simulation level, we proposed a working solution to this problem within the given timeframe. It was a very rewarding experience to have started with close to zero knowledge about mixed signal circuits, followed by learning more about them through our honours course as well as specifically reading up on delta-sigma modulation and finally proposing a solution to the problem at simulation level. After that, we extended this to our final year thesis project where the solution will be tested at chip-level.
+This project was initially a semester project wherein my teammate and I were tasked with investigating ELD compensation techniques in CT-DSM. At MATLAB simulation level, we proposed a working solution to this problem within the given timeframe. It was a very rewarding experience to have started with close to zero knowledge about mixed signal circuits, followed by learning more about them through our honours course as well as specifically reading up on delta-sigma modulation and finally proposing a solution to the problem at simulation level. After that, we extended this to our final year thesis project where the solution is being put to test at chip-level.
 
 This has been a really great learning experience so far, and will continue to be so in the future. I have learnt a lot about mixed-signal design starting from the theory in Prof. Shanthi Pavan's book on understanding data converters and through MATLAB simulations followed by circuit level implementations in Cadence virtuoso. 
 

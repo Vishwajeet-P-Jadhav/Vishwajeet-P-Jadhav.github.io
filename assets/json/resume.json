@@ -49,7 +49,6 @@
       "startDate": "Dec 2024",
       "endDate": "Present",
       "highlights": [
-        "Proposed a **digital logic based ELD compensation scheme** for ELD>1 clock cycles for CT-DSM and verified logic through simulation both in MATLAB and ideal blocks in Cadence.",
         "Targeting a **200MHz bandwidth** and **68dB SNDR** at a sampling rate of 9.6GHz.",
         "Currently designing the modulator in **GF 22nm FDSOI** technology node.",
         "This project is part of my final year undergraduate thesis project.",
